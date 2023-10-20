@@ -1,5 +1,17 @@
-# Frontend Mentor | Newsletter sign-up form with success message :
+# Frontend Mentor | Newsletter sign-up form with success message : 👨🏻‍💻 
 
+
+### Tools Used ⚒️ : 
+
+- HTML
+  
+- CSS
+  
+- JavaScript 
+
+### Features 🔥 :
+
+☑️ Responsive .
 
 ### Screen Shoots 📷 :
 

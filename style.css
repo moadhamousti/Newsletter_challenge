@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #37374d;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 20px;
+    margin: 100px;
+    padding: 30px;
+}
+
+.container .left {
+    flex: 1;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1 {
+    font-size: 40px;
+}
+
+.container .right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headlines {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.headlines h2 {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.headlines img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.email input[type="email"] {
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #999;
+}
+
+.email button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.email button:hover {
+    background-color: #222;
+}
+
+
+
+.container .right .desktop{
+    display: block;
+}
+
+.container .right .mobile{
+    display: none;
+}
+
+
+
+
+
+/* Responsivness  */
+
+
+@media (max-width: 767px) {
+    .container {
+        flex-direction: column-reverse;
+        background-image: url(./assets/images/illustration-sign-up-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding-top: 400px;
+    }
+
+    .container .right .desktop {
+        display: none;
+    }
+
+    .container .right .mobile {
+        display: block;
+        align-content: center;
+        padding-top: 40px;
+        max-width: 100%;
+        height: auto;
+    }
+    .email button {
+        margin-left: 5px;
+        
+    }
+}
+
+@media (max-width: 667px) {
+    .container{
+        padding-top: 240px;
+    }
+    .container .right .mobile {
+        width: 100%;
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 567px) {
+
+    .container{
+        padding-top: 150px;
+    }
+
+    .container .right .mobile {
+        width: 100%;
+        max-width: 220px;
+    }
+    .email button {
+        margin-left: 5px;
+        
+    }
+}
+
+
+
+
+/* SUCCESS MESSAGE 
+ */
+
+
+ 
+
+
+
+
+
+

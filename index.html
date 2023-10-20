@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./success_message.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <style>
+    /* Add your CSS styles here */
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="left">
+      <h1>Stay Updated!</h1>
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
+      <div class="headlines">
+        <img src="./assets/images/icon-success.svg" alt="">
+        <h2>Product Discovery and building what matters.</h2>
+      </div>
+      <div class="headlines">
+        <img src="./assets/images/icon-success.svg" alt="">
+        <h2>Measuring to ensure the updates are a success.</h2>
+      </div>
+      <div class="headlines">
+        <img src="./assets/images/icon-success.svg" alt="">
+        <h2>And much more!</h2>
+      </div>
+      <div class="email">
+        <h3>Email Address</h3>
+        <p class="error-message" id="error_message"></p>
+        <input placeholder="email@company.com" id="email" type="email" required>
+        <button type="button" onclick="validateForm()">Subscribe to monthly newsletter</button>
+      </div>
+    </div>
+    <div class="right">
+      <img class="desktop" src="./assets/images/illustration-sign-up-desktop.svg" alt="">
+      <div class="mobile"></div>
+    </div>
+  </div>
+
+  <section class="success_container" id="success_message">
+    <div class="success-content">
+      <img src="./assets/images/icon-success.svg" alt="">
+      <h2>Thanks for subscribing!</h2>
+      <p>A confirmation email has been sent to <strong id="email_placeholder"></strong>. Please open it and click the button inside to confirm your subscription.</p>
+      <button onclick="dismissSuccessMessage()">Dismiss message</button>
+    </div>
+  </section>
+
+  <script src="./app.js"></script>
+
+</body>
+</html>

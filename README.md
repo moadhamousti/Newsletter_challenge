@@ -17,7 +17,10 @@
 
 ### Desktop :
 
-<img width="827" alt="DESKTOP" src="https://github.com/moadhamousti/Newsletter_challenge/assets/118165767/4b6bd49e-b420-43d4-a5a4-4317875802b1">
+<p align="center">
+  <img width="827" alt="DESKTOP" src="https://github.com/moadhamousti/Newsletter_challenge/assets/118165767/4b6bd49e-b420-43d4-a5a4-4317875802b1">
+</p>
+
 
 ---
 ### Mobile :
